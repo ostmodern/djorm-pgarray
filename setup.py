@@ -1,13 +1,14 @@
 from setuptools import setup, find_packages
 
 description="""
-PostgreSQL native array fields extension for Django.
+PostgreSQL native array fields extension for Django. OST patched for update
+fix.
 """
 
 setup(
-    name = "djorm-pgarray",
+    name = "ost-djorm-pgarray",
     version = "1.2",
-    url = "https://github.com/niwibe/djorm-pgarray",
+    url = "https://github.com/ostmodern/djorm-pgarray",
     license = "BSD",
     platforms = ["OS Independent"],
     description = description.strip(),
